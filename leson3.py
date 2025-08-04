@@ -1,23 +1,20 @@
-def large_power(base, exponent):
-    result = base ** exponent  # Calculate power
-    if result > 5000:
-        return True
+def calculate_discount(price, discount_percent):
+    if discount_percent >= 20:
+        discount_amount = price * (discount_percent / 100)
+        final_price = price - discount_amount
+        return final_price
     else:
-        return False
+        return price
 
-# Test cases
-print(large_power(10, 4))   # 10^4 = 10000 → True
-print(large_power(2, 8))    # 2^8 = 256 → False
-print(large_power(5, 5))    # 5^5 = 3125 → False
-print(large_power(8, 5))    # 8^5 = 32768 → True
+# Provide values directly
+original_price = 200.0
+discount_percent = 50.0
 
-def divisible_by_ten(num):
-    if num % 10 == 0:
-        return True
-    else:
-        return False
-print(divisible_by_ten(20))   # True
-print(divisible_by_ten(33))   # False
-print(divisible_by_ten(0))    # True
-print(divisible_by_ten(100))  # True
-print(divisible_by_ten(101))  # False
+# Call the function
+final_price = calculate_discount(original_price, discount_percent)
+
+# Display the result
+if discount_percent >= 20:
+    print(f"Discount applied! Final price: Kshs{final_price:.2f}")
+else:
+    print(f"No discount applied. Final price: Kshs {original_price:.2f}")
