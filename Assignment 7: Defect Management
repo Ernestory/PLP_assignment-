@@ -1,0 +1,166 @@
+Assignment 7: Defect Management 
+1. Purpose and Importance of the Defect Lifecycle
+
+The Defect Lifecycle (or Bug Life Cycle) is the step-by-step journey a defect follows from the moment it is found until it is fixed and closed.
+
+Why it is important
+
+✔ Ensures defects are handled systematically
+Each defect passes through defined stages, ensuring nothing is ignored.
+
+✔ Clarifies roles and responsibilities
+Developers, testers, leads, and managers know exactly what to do at each stage.
+
+✔ Improves communication
+Everyone understands the status of each defect at any moment.
+
+✔ Helps maintain high product quality
+Organised handling of defects reduces chances of unresolved issues.
+
+✔ Enables better planning and tracking
+Teams can track progress, estimate workload, and improve processes.
+
+Typical Defect Lifecycle Stages
+
+New – A tester finds a defect and reports it.
+
+Assigned – The defect is given to a developer to fix.
+
+Open – Developer starts working on it.
+
+Fixed – Developer solves the issue.
+
+Retest – Tester checks if it’s truly fixed.
+
+Closed – Tester confirms the fix and closes the bug.
+
+Reopened – If the issue still occurs, the tester reopens it.
+
+Deferred/Rejected/Duplicate – Special states depending on decisions.
+
+2. Why Early Defect Identification is Crucial
+
+Finding defects early in the software development cycle is extremely beneficial.
+
+Reasons
+
+✔ Cheaper to fix early
+Bugs found during requirements or design are much cheaper than bugs found after release.
+
+✔ Prevents bigger failures later
+Early detection stops one defect from causing more defects.
+
+✔ Saves time and reduces rework
+The later a defect is found, the more code needs to be changed.
+
+✔ Improves customer satisfaction
+Delivering a stable product reduces customer complaints.
+
+✔ Enhances team productivity
+Teams avoid chaos, crisis fixes, and last-minute pressure.
+
+3. Methods Used to Identify Defects
+
+Defects can be detected through different testing and analysis techniques.
+
+Common Defect Identification Methods
+a) Reviews
+
+Requirement Review
+
+Design Review
+
+Code Review
+These help identify issues before any code is executed.
+
+b) Static Analysis
+
+Tools analyze code to find issues such as:
+
+Dead code
+
+Security vulnerabilities
+
+Syntax violations
+
+c) Dynamic Testing
+
+Running the software to find functional and non-functional defects:
+
+Unit Testing
+
+Integration Testing
+
+System Testing
+
+User Acceptance Testing
+
+d) Exploratory Testing
+
+Testers explore the system freely to find unexpected defects.
+
+e) Ad-hoc Testing
+
+No formal test cases; testers rely on experience.
+
+f) Automated Testing
+
+Tools like Selenium, JUnit, PHPUnit automatically detect issues during execution.
+
+g) Beta Testing
+
+Users test the software in the real world to find hidden defects.
+
+4. Role of Logging Defects in Effective Defect Management
+
+Logging defects is one of the most critical activities for managing bugs.
+
+Why Logging Defects is Important
+
+✔ Centralized tracking – All defects are recorded in one place.
+
+✔ Ensures accountability – Each defect is assigned to a responsible person.
+
+✔ Enables prioritization – Defects can be categorized as high, medium, or low priority.
+
+✔ Improves communication – Developers and testers share the same information.
+
+✔ Supports future analysis – Logged defects help in understanding recurring issues.
+
+✔ Forms the basis for metrics – Helps track defect density, defect leakage, closure rates, etc.
+
+What a Good Defect Log Should Contain
+
+Defect ID
+
+Description
+
+Steps to reproduce
+
+Actual result
+
+Expected result
+
+Severity and priority
+
+Screenshots/logs
+
+Assigned developer
+
+Status in the lifecycle
+
+Date opened and closed
+
+Tools used:
+
+Jira
+
+Bugzilla
+
+Trello
+
+Mantis
+
+Azure DevOps
+
+GitHub Issues
