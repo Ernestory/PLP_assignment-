@@ -1,0 +1,103 @@
+Assignment 4: Test Design Techniques — Complete Guide
+ 1. Black-Box vs. White-Box Testing
+ Black-Box Testing
+
+Focuses on what the software does, not how it does it.
+
+Testers don’t need knowledge of internal code.
+
+Test cases are based on requirements and specifications.
+
+Key Features:
+
+Checks functional behavior
+
+Uses techniques like Equivalence Partitioning, Boundary Value Analysis, Decision Tables, State Transition Testing
+
+Detects missing functions, incorrect outputs, interface errors
+
+⚪ White-Box Testing
+
+Focuses on how the software works internally.
+
+Testers need knowledge of code structure.
+
+Test cases are based on control flow, data flow, and logic.
+
+Key Features:
+
+Checks internal logic and paths
+
+Uses techniques like Statement Coverage, Decision Coverage, Condition Coverage, Path Coverage
+
+Detects logic errors, unreachable code, loops issues
+
+
+2. Equivalence Partitioning (EP)
+
+Purpose: Reduce the number of test cases by grouping inputs into equivalence classes where all inputs are expected to behave the same way.
+
+Example:
+
+Input: Age for eligibility (0–120 years)
+
+Equivalence Classes:
+
+Valid: 18–60 → Should pass
+
+Invalid: <18 → Should fail
+
+Invalid: >60 → Should fail
+
+Benefit: Testers don’t have to test every single input; testing one value per class is sufficient.
+
+3. Boundary Value Analysis (BVA)
+
+Purpose: Focuses on values at the edges of input ranges, which are more prone to defects.
+
+Example:
+
+Age field (18–60 years)
+
+Test cases: 17, 18, 19, 59, 60, 61
+
+Benefit: Catches edge case errors often missed by normal tests.
+
+4. Decision Tables
+
+Purpose: Represent complex business rules or logic in a table format.
+
+Structure:
+
+Conditions → Columns represent combinations of true/false
+
+Actions → Resulting system behavior
+
+5. State Transition Testing
+
+Purpose: Tests software behavior when moving from one state to another. Useful for systems with defined states like vending machines, login systems, or traffic lights.
+
+Steps:
+
+Identify states
+
+Identify transitions
+
+Define valid and invalid inputs/events
+
+Create test cases for each transition
+
+Example: Login System
+
+States: Logged Out → Logged In → Locked
+
+Transitions: Correct password, wrong password, timeout
+
+Test Cases:
+
+Correct password → Logged In
+
+Wrong password 3 times → Locked
+
+Benefit: Ensures all state changes are tested, including invalid transitions.
+
