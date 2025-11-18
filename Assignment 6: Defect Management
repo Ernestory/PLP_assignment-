@@ -1,0 +1,138 @@
+Assignment 6: Defect Management 
+ 1. What Is Defect Management?
+
+Defect Management is the process of identifying, documenting, prioritizing, tracking, and resolving defects in a software project to ensure high quality.
+
+Purpose:
+
+Maintain software quality
+
+Reduce production issues
+
+Improve customer satisfaction
+
+Provide a structured process for handling defects
+
+ 2. The Defect Lifecycle
+
+The Defect Lifecycle (also called Bug Lifecycle) represents the stages a defect goes through from discovery to closure.
+
+Stages:
+
+Identification/Detection:
+
+Defect is discovered by tester, user, or automated tool.
+
+Logging/Recording:
+
+Details about the defect are documented in a defect log.
+
+Classification/Prioritization:
+
+Assign severity (Critical, Major, Minor, Trivial)
+
+Assign priority (High, Medium, Low)
+
+Assignment:
+
+Defect is assigned to the responsible developer or team for fixing.
+
+Resolution/Fixing:
+
+Developer fixes the defect and updates its status.
+
+Verification/Testing:
+
+Tester verifies that the defect is resolved and tests the fix.
+
+Closure:
+
+Defect is marked as Closed if verified, or Reopened if the issue persists.
+
+Tip: Early identification of defects reduces cost and effort significantly.
+
+ 3. Importance of Early Defect Identification
+
+Detect defects before deployment
+
+Reduce cost of fixing defects (earlier = cheaper)
+
+Improve software quality and reliability
+
+Minimize impact on users and business operations
+
+Example: Fixing a defect in the design phase costs less than fixing it after production.
+
+ 4. Methods of Defect Identification
+
+Static Techniques:
+
+Walkthroughs, reviews, inspections
+
+No execution needed; focuses on documents, design, and code
+
+Dynamic Techniques:
+
+Actual execution of code using functional and non-functional tests
+
+Automated Tools:
+
+Static analysis tools (SonarQube, ESLint)
+
+Test automation tools (Selenium, JUnit)
+
+User Feedback:
+
+Bugs reported by users during beta or production
+
+Exploratory Testing:
+
+Testers explore the application without predefined test cases
+
+ 5. Role of Logging Defects
+
+Defect Logging is documenting defects in a structured format.
+
+Key Elements to Log:
+
+Defect ID
+
+Summary/Title
+
+Description/Steps to reproduce
+
+Severity and Priority
+
+Environment (OS, browser, version)
+
+Reporter name
+
+Date discovered
+
+Status (Open, In Progress, Resolved, Closed)
+
+Assigned developer
+
+Benefits of Logging:
+
+Tracks defect status and history
+
+Enables analysis of defect trends
+
+Supports better resource allocation
+
+Helps in audit and reporting
+
+ 6. Summary
+
+Effective defect management ensures:
+
+Defects are tracked systematically
+
+High-priority defects are addressed first
+
+Software quality is improved continuously
+
+Teams can analyze defects to prevent future issues
+
+Tip: Combine defect lifecycle, early detection, and proper logging for efficient defect management.
