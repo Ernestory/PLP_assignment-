@@ -1,0 +1,238 @@
+📝 Assignment 3: Static Testing Techniques 
+✅ 1. What Is Static Testing?
+
+Static Testing is a method of software testing where the code, project documents, or design are examined without executing the program.
+
+It focuses on finding defects early in the development lifecycle by reviewing artifacts such as:
+
+Requirements documents
+
+Design documents
+
+Source code
+
+Test plans
+
+🔑 Why Static Testing Is Important
+
+Detects errors EARLY (before running the software)
+
+Saves cost and time
+
+Improves software quality
+
+Ensures clarity in requirements and design
+
+Reduces the number of bugs found later during dynamic testing
+
+Examples include walkthroughs, reviews, inspections, and static analysis tools.
+
+✅ 2. Differences Between Walkthroughs, Reviews, and Inspections
+🧩 a) Walkthrough
+
+A walkthrough is a presentation of the product by the author (developer, analyst, designer) to a group of peers.
+
+✔ Features:
+
+Led by the author
+
+Used for knowledge sharing
+
+Audience can ask questions
+
+Not very formal
+
+Purpose is understanding, not judging
+
+✔ When Used:
+
+Early drafts of documents
+
+New or complex modules
+
+🧩 b) Technical Review
+
+A technical review is a team-based evaluation of software artifacts to detect defects.
+
+✔ Features:
+
+Moderately formal
+
+Conducted by technical experts
+
+Purpose is to find defects, improve quality
+
+Comments about logic, performance, standards
+
+Author participates but does not lead
+
+✔ Focus:
+
+Code quality
+
+Design correctness
+
+Technology standards
+
+🧩 c) Inspection
+
+Inspection is the most formal static testing technique.
+
+✔ Features:
+
+Led by a trained moderator
+
+Uses checklists
+
+Detailed and structured
+
+Defects are recorded formally
+
+Follow-up is required
+
+Focus on defect detection ONLY (not fixing)
+
+✔ Examples of what inspections check:
+
+Coding standards
+
+Requirements correctness
+
+Design consistency
+
+Logic errors
+
+✨ Difference Summary Table
+Feature	Walkthrough	Technical Review	Inspection
+Led by	Author	Technical experts	Moderator
+Formality	Low	Medium	High
+Purpose	Knowledge & feedback	Find defects	Deep defect detection
+Uses checklist	No	Sometimes	Yes
+Documentation	Optional	Required	Mandatory
+✅ 3. Static Analysis Tools
+
+Static analysis tools automatically scan source code to detect potential problems without executing it.
+
+🔧 What They Detect:
+
+Syntax issues
+
+Security vulnerabilities
+
+Dead code
+
+Coding standard violations
+
+Memory leaks (in some languages)
+
+Type mismatches
+
+Potential bugs (e.g. null pointer dereference)
+
+🔍 How They Work
+
+They analyze:
+
+Control flow
+
+Data flow
+
+Code structures
+
+Patterns in logic
+
+Rule violations based on coding standards
+
+⭐ 4. Key Benefits of Using Static Analysis Tools
+✔ 1. Early Bug Detection
+
+Finds issues before running the code, reducing cost and rework.
+
+✔ 2. Improved Code Quality
+
+Enforces clean, readable, and maintainable code.
+
+✔ 3. Ensures Compliance with Standards
+
+Helps follow industry coding standards (e.g., MISRA, PEP8).
+
+✔ 4. Reduces Security Risks
+
+Identifies vulnerabilities before attackers exploit them.
+
+✔ 5. Saves Time for Testers
+
+Dynamic testing becomes easier because many defects are removed earlier.
+
+✔ 6. Automates Quality Assurance
+
+Useful for CI/CD pipelines (Jenkins, GitHub Actions, GitLab).
+
+📌 5. Popular Static Analysis Tools & Their Features
+🔹 SonarQube
+
+Multi-language support
+
+Detects bugs, smells, vulnerabilities
+
+Code quality dashboards
+
+CI/CD integration
+
+🔹 ESLint (JavaScript)
+
+Checks JS/TypeScript code
+
+Detects syntax errors
+
+Enforces coding standards
+
+Highly configurable
+
+🔹 Pylint (Python)
+
+Detects errors & bad coding style
+
+Scores code quality
+
+Follows PEP8
+
+🔹 Checkstyle (Java)
+
+Ensures Java coding standards
+
+Detects style violations
+
+🔹 FindBugs/SpotBugs (Java)
+
+Detects bugs using bytecode analysis
+
+Finds multithreading issues
+
+🔹 PMD
+
+Detects unused variables, dead code, bad practices
+
+Supports many languages
+
+🔹 Static Application Security Testing (SAST) Tools
+
+Examples: Fortify, Veracode, Checkmarx
+
+Focus on security vulnerabilities
+
+Essential for secure SDLC
+
+🎉 Conclusion
+
+Static testing is a powerful technique used before code execution to:
+
+Improve software quality
+
+Reduce cost
+
+Detect defects early
+
+Enforce coding standards
+
+It includes walkthroughs, reviews, inspections, and static analysis tools, each contributing to making development faster, cleaner, and more reliable.
